@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'mokoSocketIo'
     spec.version                  = '0.6.0'
-    spec.homepage                 = 'https://github.com/icerockdev/moko-socket-io'
-    spec.source                   = { :git => "https://github.com/icerockdev/moko-socket-io.git", :tag => "release/#{spec.version}" }
+    spec.homepage                 = 'https://github.com/rohan-paudel/moko-socket-io'
+    spec.source                   = { :git => "https://github.com/rohan-paudel/moko-socket-io.git", :tag => "release/#{spec.version}" }
     spec.authors                  = 'IceRock Development'
     spec.license                  = { :type => 'Apache 2', :file => 'LICENSE.md' }
     spec.summary                  = 'Swift additions to Kotlin/Native library'
