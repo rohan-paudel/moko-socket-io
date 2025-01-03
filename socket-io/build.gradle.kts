@@ -10,6 +10,7 @@ plugins {
     id("org.jetbrains.kotlin.multiplatform")
     id("kotlin-parcelize")
     id("dev.icerock.mobile.multiplatform.cocoapods")
+     id("maven-publish") 
     id("dev.icerock.mobile.multiplatform.android-manifest")
 }
 
