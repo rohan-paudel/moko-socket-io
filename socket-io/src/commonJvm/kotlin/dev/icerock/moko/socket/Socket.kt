@@ -30,6 +30,7 @@ actual class Socket actual constructor(
                     SocketOptions.Transport.POLLING -> return@let arrayOf(Polling.NAME)
                 }
             }
+            pate = config?.path?:""
             query = config?.queryParams?.run {
                 if (size == 0) return@run null
 
