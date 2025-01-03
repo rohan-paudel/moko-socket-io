@@ -35,7 +35,7 @@ public class SocketIo: NSObject {
     queryParams: [String: Any]?,
     transport: SocketIoTransport
   ) {
-    var configuration: SocketIOClientConfiguration = [ .compress ]
+    var configuration: SocketIOClientConfiguration = [ .compress, .path("/sd")  ]
     if let queryParams = queryParams {
       configuration.insert(.connectParams(queryParams))
     }
